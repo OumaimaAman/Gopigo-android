@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/graph"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:background="@color/black"
+        android:orientation="horizontal">
+
+    </FrameLayout>
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+          >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.41"
+            android:text="Beacon:5373"
+            android:textColor="@color/red"
+            android:textSize="14sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.41"
+            android:text="Beacon:CBA5"
+            android:textColor="@color/green"
+            android:textSize="14sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.41"
+            android:text="Beacon:89CE"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/database"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="DataBase"
+            android:textColor="@color/white"
+            android:textSize="9dp" />
+        <Button
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Sonor"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textvie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.41"
+            android:text="0.00 cm"
+            android:textColor="@android:color/black"
+            android:textSize="9sp" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.41"
+            android:text="Contrôler Gopigo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/forword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Forword"
+            android:textColor="@color/white"
+            android:textSize="9dp" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Stop"
+            android:textColor="@color/white"
+            android:textSize="9dp" />
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Right"
+            android:textColor="@color/white"
+            android:textSize="9dp" />
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="left"
+            android:textColor="@color/white"
+            android:textSize="9dp" />
+        <Button
+            android:id="@+id/beacon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Beacon"
+            android:textColor="@color/white"
+            android:textSize="9dp" />
+
+    </LinearLayout>
+</LinearLayout>
