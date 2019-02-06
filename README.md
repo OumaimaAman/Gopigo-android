@@ -5,4 +5,4 @@ L ‘application Android a pour but de:
   en utilisant la librairie Socket.io.
 • Stocker les distances calculées.
 • Afficher sous forme d’un graphe la distance et le temps (en temps réel / depuis la base
-  de données.
+  de données).
